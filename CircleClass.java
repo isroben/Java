@@ -23,6 +23,8 @@ class Circle{
 public class CircleClass{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the radius of Circle: ");
         Float f = sc.nextFloat();
 
         Circle c1 = new Circle(f);
